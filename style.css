@@ -68,8 +68,10 @@ h1 {
 }
 
 button {
+  font-size: 17px;
+  color: white;
   width: 200px;
-  height: 25px;
+  height: 40px;
   background: #f8ec32;
 }
 
@@ -166,6 +168,10 @@ h5 {
 .yellow {
   height: 800px;
   background:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
