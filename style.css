@@ -34,6 +34,11 @@ h2 {
   margin: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .main {
   width: 100%;
   display: flex;
@@ -183,9 +188,12 @@ form {
 }
 
 h4 {
-  text-align: center;
   font-size: 30px;
   margin-bottom: 0px;
+}
+
+.yellow .h4 {
+  text-align: center;
 }
 
 form p {
