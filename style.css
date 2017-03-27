@@ -16,11 +16,16 @@ html, body {
   z-index: 2;
 }
 
+p {
+  font-weight: 300;
+}
+
 h2 {
   font-size: 30px;
   background: #f8ec32;
   margin: 0;
   padding: 3px 9px 3px 9px;
+  font-weight: 500;
 }
 
 .header h5 {
@@ -74,7 +79,7 @@ h1 {
 
 button {
   font-size: 17px;
-  color: white;
+  color: #a59b0d;
   width: 200px;
   height: 40px;
   background: #f8ec32;
@@ -166,7 +171,7 @@ button:focus {
 
 h5 {
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 500;
   margin: 15px 0 -5px 0;
 }
 
