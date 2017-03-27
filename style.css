@@ -17,10 +17,7 @@ html, body {
 }
 
 h2 {
-  font-size: 20px;
-  position: absolute;
-  top: 19%;
-  left: 2%;
+  font-size: 30px;
   background: #f8ec32;
   margin: 0;
   padding: 3px 9px 3px 9px;
@@ -55,7 +52,10 @@ a {
 }
 
 .logo {
-  width: 60px;
+  position: absolute;
+  top: 18%;
+  left: 2%;
+  width: 34px;
   margin-bottom: -20px;
 } 
 
