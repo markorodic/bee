@@ -321,6 +321,7 @@ button {
   }
 
   .photos {
+    display: unset;
     position: absolute;
     height: 100%;
     top: 50%;
