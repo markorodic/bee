@@ -27,7 +27,7 @@ p {
 h2 {
   font-size: 30px;
   background: #f8ec32;
-  color: #a59b0d;
+  color: black;
   margin: 0;
   padding: 3px 9px 3px 9px;
   font-weight: 500;
@@ -151,7 +151,7 @@ button:focus {
   position: absolute;
   height: 100%;
   top: 50%;
-  left: 30%;
+  left: 50%;
   opacity: 0.6;
   transform: translate(-50%, -50%)
 }
@@ -293,7 +293,7 @@ button {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 740px) {
 
   .logo {
       width: 25px;
