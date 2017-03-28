@@ -23,6 +23,7 @@ p {
 h2 {
   font-size: 30px;
   background: #f8ec32;
+  color: #a59b0d;
   margin: 0;
   padding: 3px 9px 3px 9px;
   font-weight: 500;
@@ -344,8 +345,8 @@ button {
 
   .description {
     text-align: center;
-    margin-bottom: 360px;
-    flex-grow: 1;
+    margin-bottom: 220px;
+    max-height: 100%;
   }
 
   h4 {
