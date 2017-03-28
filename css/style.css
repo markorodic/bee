@@ -7,6 +7,10 @@ html, body {
   width: 100%;
 }
 
+#mobile {
+  display: none;
+}
+
 .header {
   height: 50px;
   background: #f2f2f2;
@@ -307,6 +311,38 @@ button {
   }
 
   .blue, .red, .green {
+    display: none;
+  }
+
+  #mobile {
+    display: unset;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #dee, #sav, #mar {
+    width: 80%;
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+  }
+
+  .info {
+    font-size: 14px;
+    font-weight: 100;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+  /*.mobile-photo {
+    height: 400px;
+    width: auto;
+  }*/
+
+
+
+/*  .blue, .red, .green {
     flex-direction: column;
     height: 640px;
   }
@@ -346,15 +382,12 @@ button {
   .description {
     text-align: center;
     margin-bottom: 220px;
-    max-height: 100%;
-  }
+    min-height: 100%;
+  }*/
 
   h4 {
     text-align: center;
     font-size: 20px;
-  }
-
-  .container {
   }
 
 
